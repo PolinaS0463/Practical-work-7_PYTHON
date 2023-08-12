@@ -1,5 +1,5 @@
 phrase = input("Введите строку для проверки рифмы:")
-phrase = phrase.split()
+phrase = phrase.split(" ")
 
 def rhythm(phrase):
     count = 0
